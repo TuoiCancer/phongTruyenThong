@@ -421,7 +421,7 @@ function loadVideo() {
       object.scene.title = "TV_video";
       object.scene.userData = {
         urlName: "resource/pictures/TV_video/name.txt",
-        videoUrl: "/resource/pictures/TV_video/CDIT.mp4",
+        videoUrl: "resource/pictures/TV_video/CDIT.mp4",
         clickActions: {
           displayVideo: true,
         },
