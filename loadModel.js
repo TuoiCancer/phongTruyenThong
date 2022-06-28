@@ -29,8 +29,8 @@ function loadAllModel() {
     function (object) {
       object.scene.title = "cobokhoahoc";
       object.scene.userData = {
-        urlName: "/resource/models/cobokhoahoc/name.txt",
-        urlInfo: "/resource/models/cobokhoahoc/info.txt",
+        urlName: "resource/models/cobokhoahoc/name.txt",
+        urlInfo: "resource/models/cobokhoahoc/info.txt",
       };
       scene.add(object.scene);
       collidableObjects.push(object.scene);
@@ -42,8 +42,8 @@ function loadAllModel() {
     function (object) {
       object.scene.title = "cobuudien";
       object.scene.userData = {
-        urlName: "/resource/models/cobuudien/name.txt",
-        urlInfo: "/resource/models/cobuudien/info.txt",
+        urlName: "resource/models/cobuudien/name.txt",
+        urlInfo: "resource/models/cobuudien/info.txt",
       };
       scene.add(object.scene);
       collidableObjects.push(object.scene);
@@ -55,8 +55,8 @@ function loadAllModel() {
     function (object) {
       object.scene.title = "cochinhphu";
       object.scene.userData = {
-        urlName: "/resource/models/cochinhphu/name.txt",
-        urlInfo: "/resource/models/cochinhphu/info.txt",
+        urlName: "resource/models/cochinhphu/name.txt",
+        urlInfo: "resource/models/cochinhphu/info.txt",
       };
 
       scene.add(object.scene);
@@ -69,8 +69,8 @@ function loadAllModel() {
     function (object) {
       object.scene.title = "cup_CNTT";
       object.scene.userData = {
-        urlName: "/resource/models/cup_CNTT/name.txt",
-        urlInfo: "/resource/models/cup_CNTT/info.txt",
+        urlName: "resource/models/cup_CNTT/name.txt",
+        urlInfo: "resource/models/cup_CNTT/info.txt",
       };
       scene.add(object.scene);
       collidableObjects.push(object.scene);
@@ -82,8 +82,8 @@ function loadAllModel() {
     function (object) {
       object.scene.title = "cup_saokhue";
       object.scene.userData = {
-        urlName: "/resource/models/cup_saokhue/name.txt",
-        urlInfo: "/resource/models/cup_saokhue/info.txt",
+        urlName: "resource/models/cup_saokhue/name.txt",
+        urlInfo: "resource/models/cup_saokhue/info.txt",
       };
       scene.add(object.scene);
       collidableObjects.push(object.scene);
@@ -95,8 +95,8 @@ function loadAllModel() {
     function (object) {
       object.scene.title = "cup_saovangdatviet";
       object.scene.userData = {
-        urlName: "/resource/models/cup_saovangdatviet/name.txt",
-        urlInfo: "/resource/models/cup_saovangdatviet/info.txt",
+        urlName: "resource/models/cup_saovangdatviet/name.txt",
+        urlInfo: "resource/models/cup_saovangdatviet/info.txt",
       };
       scene.add(object.scene);
       collidableObjects.push(object.scene);
@@ -108,8 +108,8 @@ function loadAllModel() {
     function (object) {
       object.scene.title = "cup_thuongmai";
       object.scene.userData = {
-        urlName: "/resource/models/cup_thuongmai/name.txt",
-        urlInfo: "/resource/models/cup_thuongmai/info.txt",
+        urlName: "resource/models/cup_thuongmai/name.txt",
+        urlInfo: "resource/models/cup_thuongmai/info.txt",
       };
       scene.add(object.scene);
       collidableObjects.push(object.scene);
@@ -121,8 +121,8 @@ function loadAllModel() {
     function (object) {
       object.scene.title = "cup_vifotec";
       object.scene.userData = {
-        urlName: "/resource/models/cup_vifotec/name.txt",
-        urlInfo: "/resource/models/cup_vifotec/info.txt",
+        urlName: "resource/models/cup_vifotec/name.txt",
+        urlInfo: "resource/models/cup_vifotec/info.txt",
       };
       scene.add(object.scene);
       collidableObjects.push(object.scene);
@@ -134,8 +134,8 @@ function loadAllModel() {
     function (object) {
       // object.scene.title = "laser";
       object.scene.userData = {
-        urlName: "/resource/models/laser/name.txt",
-        urlInfo: "/resource/models/laser/info.txt",
+        urlName: "resource/models/laser/name.txt",
+        urlInfo: "resource/models/laser/info.txt",
       };
       scene.add(object.scene);
       collidableObjects.push(object.scene);
@@ -143,8 +143,8 @@ function loadAllModel() {
       object.scene.traverse(function (child) {
         if (child) {
           child.userData = {
-            urlName: "/resource/models/laser/name.txt",
-            urlInfo: "/resource/models/laser/info.txt",
+            urlName: "resource/models/laser/name.txt",
+            urlInfo: "resource/models/laser/info.txt",
           };
           loadModelToScene(child.userData);
         }
@@ -158,8 +158,8 @@ function loadAllModel() {
     function (object) {
       object.scene.title = "mayin3D";
       object.scene.userData = {
-        urlName: "/resource/models/mayin3D/name.txt",
-        urlInfo: "/resource/models/mayin3D/info.txt",
+        urlName: "resource/models/mayin3D/name.txt",
+        urlInfo: "resource/models/mayin3D/info.txt",
       };
       scene.add(object.scene);
       collidableObjects.push(object.scene);
@@ -174,8 +174,8 @@ function loadPictures() {
     function (object) {
       object.scene.title = "canvas_large1";
       object.scene.userData = {
-        urlName: "/resource/pictures/canvas_large1/name.txt",
-        urlInfo: "/resource/pictures/canvas_large1/info.txt",
+        urlName: "resource/pictures/canvas_large1/name.txt",
+        urlInfo: "resource/pictures/canvas_large1/info.txt",
       };
       scene.add(object.scene);
       collidableObjects.push(object.scene);
@@ -187,8 +187,8 @@ function loadPictures() {
     function (object) {
       object.scene.title = "canvas_small1";
       object.scene.userData = {
-        urlName: "/resource/pictures/canvas_small1/name.txt",
-        urlInfo: "/resource/pictures/canvas_small1/info.txt",
+        urlName: "resource/pictures/canvas_small1/name.txt",
+        urlInfo: "resource/pictures/canvas_small1/info.txt",
       };
       scene.add(object.scene);
       collidableObjects.push(object.scene);
@@ -200,8 +200,8 @@ function loadPictures() {
     function (object) {
       object.scene.title = "canvas_small2";
       object.scene.userData = {
-        urlName: "/resource/pictures/canvas_small2/name.txt",
-        urlInfo: "/resource/pictures/canvas_small2/info.txt",
+        urlName: "resource/pictures/canvas_small2/name.txt",
+        urlInfo: "resource/pictures/canvas_small2/info.txt",
       };
       scene.add(object.scene);
       collidableObjects.push(object.scene);
@@ -213,8 +213,8 @@ function loadPictures() {
     function (object) {
       object.scene.title = "canvas_small3";
       object.scene.userData = {
-        urlName: "/resource/pictures/canvas_small3/name.txt",
-        urlInfo: "/resource/pictures/canvas_small3/info.txt",
+        urlName: "resource/pictures/canvas_small3/name.txt",
+        urlInfo: "resource/pictures/canvas_small3/info.txt",
       };
       scene.add(object.scene);
       collidableObjects.push(object.scene);
@@ -226,8 +226,8 @@ function loadPictures() {
     function (object) {
       object.scene.title = "canvas_small4";
       object.scene.userData = {
-        urlName: "/resource/pictures/canvas_small4/name.txt",
-        urlInfo: "/resource/pictures/canvas_small4/info.txt",
+        urlName: "resource/pictures/canvas_small4/name.txt",
+        urlInfo: "resource/pictures/canvas_small4/info.txt",
       };
       scene.add(object.scene);
       collidableObjects.push(object.scene);
@@ -239,8 +239,8 @@ function loadPictures() {
     function (object) {
       object.scene.title = "canvas_small5";
       object.scene.userData = {
-        urlName: "/resource/pictures/canvas_small5/name.txt",
-        urlInfo: "/resource/pictures/canvas_small5/info.txt",
+        urlName: "resource/pictures/canvas_small5/name.txt",
+        urlInfo: "resource/pictures/canvas_small5/info.txt",
       };
       scene.add(object.scene);
       collidableObjects.push(object.scene);
@@ -252,8 +252,8 @@ function loadPictures() {
     function (object) {
       object.scene.title = "canvas_small6";
       object.scene.userData = {
-        urlName: "/resource/pictures/canvas_small6/name.txt",
-        urlInfo: "/resource/pictures/canvas_small6/info.txt",
+        urlName: "resource/pictures/canvas_small6/name.txt",
+        urlInfo: "resource/pictures/canvas_small6/info.txt",
       };
       scene.add(object.scene);
       collidableObjects.push(object.scene);
@@ -265,8 +265,8 @@ function loadPictures() {
     function (object) {
       object.scene.title = "canvas_small7";
       object.scene.userData = {
-        urlName: "/resource/pictures/canvas_small7/name.txt",
-        urlInfo: "/resource/pictures/canvas_small7/info.txt",
+        urlName: "resource/pictures/canvas_small7/name.txt",
+        urlInfo: "resource/pictures/canvas_small7/info.txt",
       };
       scene.add(object.scene);
       collidableObjects.push(object.scene);
@@ -278,8 +278,8 @@ function loadPictures() {
     function (object) {
       object.scene.title = "canvas_small8";
       object.scene.userData = {
-        urlName: "/resource/pictures/canvas_small8/name.txt",
-        urlInfo: "/resource/pictures/canvas_small8/info.txt",
+        urlName: "resource/pictures/canvas_small8/name.txt",
+        urlInfo: "resource/pictures/canvas_small8/info.txt",
       };
       scene.add(object.scene);
       collidableObjects.push(object.scene);
@@ -291,8 +291,8 @@ function loadPictures() {
     function (object) {
       object.scene.title = "canvas_small9";
       object.scene.userData = {
-        urlName: "/resource/pictures/canvas_small9/name.txt",
-        urlInfo: "/resource/pictures/canvas_small9/info.txt",
+        urlName: "resource/pictures/canvas_small9/name.txt",
+        urlInfo: "resource/pictures/canvas_small9/info.txt",
       };
       scene.add(object.scene);
       collidableObjects.push(object.scene);
@@ -304,8 +304,8 @@ function loadPictures() {
     function (object) {
       object.scene.title = "canvas_small10";
       object.scene.userData = {
-        urlName: "/resource/pictures/canvas_small10/name.txt",
-        urlInfo: "/resource/pictures/canvas_small10/info.txt",
+        urlName: "resource/pictures/canvas_small10/name.txt",
+        urlInfo: "resource/pictures/canvas_small10/info.txt",
       };
       scene.add(object.scene);
       collidableObjects.push(object.scene);
@@ -317,8 +317,8 @@ function loadPictures() {
     function (object) {
       object.scene.title = "canvas_small11";
       object.scene.userData = {
-        urlName: "/resource/pictures/canvas_small11/name.txt",
-        urlInfo: "/resource/pictures/canvas_small11/info.txt",
+        urlName: "resource/pictures/canvas_small11/name.txt",
+        urlInfo: "resource/pictures/canvas_small11/info.txt",
       };
       scene.add(object.scene);
       collidableObjects.push(object.scene);
@@ -330,8 +330,8 @@ function loadPictures() {
     function (object) {
       object.scene.title = "canvas_square1";
       object.scene.userData = {
-        urlName: "/resource/pictures/canvas_square1/name.txt",
-        urlInfo: "/resource/pictures/canvas_square1/info.txt",
+        urlName: "resource/pictures/canvas_square1/name.txt",
+        urlInfo: "resource/pictures/canvas_square1/info.txt",
       };
       scene.add(object.scene);
       collidableObjects.push(object.scene);
@@ -343,8 +343,8 @@ function loadPictures() {
     function (object) {
       object.scene.title = "kiosk1";
       object.scene.userData = {
-        urlName: "/resource/pictures/kiosk1/name.txt",
-        urlInfo: "/resource/pictures/kiosk1/info.txt",
+        urlName: "resource/pictures/kiosk1/name.txt",
+        urlInfo: "resource/pictures/kiosk1/info.txt",
       };
       scene.add(object.scene);
       collidableObjects.push(object.scene);
@@ -356,8 +356,8 @@ function loadPictures() {
     function (object) {
       object.scene.title = "kiosk2";
       object.scene.userData = {
-        urlName: "/resource/pictures/kiosk2/name.txt",
-        urlInfo: "/resource/pictures/kiosk2/info.txt",
+        urlName: "resource/pictures/kiosk2/name.txt",
+        urlInfo: "resource/pictures/kiosk2/info.txt",
       };
       scene.add(object.scene);
       collidableObjects.push(object.scene);
@@ -369,8 +369,8 @@ function loadPictures() {
     function (object) {
       object.scene.title = "kiosk3";
       object.scene.userData = {
-        urlName: "/resource/pictures/kiosk3/name.txt",
-        urlInfo: "/resource/pictures/kiosk3/info.txt",
+        urlName: "resource/pictures/kiosk3/name.txt",
+        urlInfo: "resource/pictures/kiosk3/info.txt",
       };
       scene.add(object.scene);
       collidableObjects.push(object.scene);
@@ -382,8 +382,8 @@ function loadPictures() {
     function (object) {
       object.scene.title = "kiosk4";
       object.scene.userData = {
-        urlName: "/resource/pictures/kiosk4/name.txt",
-        urlInfo: "/resource/pictures/kiosk4/info.txt",
+        urlName: "resource/pictures/kiosk4/name.txt",
+        urlInfo: "resource/pictures/kiosk4/info.txt",
       };
       scene.add(object.scene);
       collidableObjects.push(object.scene);
@@ -395,8 +395,8 @@ function loadPictures() {
     function (object) {
       object.scene.title = "kiosk5";
       object.scene.userData = {
-        urlName: "/resource/pictures/kiosk5/name.txt",
-        urlInfo: "/resource/pictures/kiosk5/info.txt",
+        urlName: "resource/pictures/kiosk5/name.txt",
+        urlInfo: "resource/pictures/kiosk5/info.txt",
       };
       scene.add(object.scene);
       collidableObjects.push(object.scene);
@@ -420,7 +420,7 @@ function loadVideo() {
     function (object) {
       object.scene.title = "TV_video";
       object.scene.userData = {
-        urlName: "/resource/pictures/TV_video/name.txt",
+        urlName: "resource/pictures/TV_video/name.txt",
         videoUrl: "/resource/pictures/TV_video/CDIT.mp4",
         clickActions: {
           displayVideo: true,
