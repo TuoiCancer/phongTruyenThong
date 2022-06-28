@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Phong trien lam</title>
+  <!-- import css file -->
+  <link rel="shortcut icon" href="#">
+  <link rel="stylesheet" href="./resource/css/reset.css" />
+  <link rel="stylesheet" href="resource/fontawesome-free-6.1.1-web/css/all.min.css" />
+  <link rel="stylesheet" href="./resource/css/style.css" />
+  <!-- import gui file lib  -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.9/dat.gui.min.js"
+    integrity="sha512-WoO4Ih0CDOSLYafy22wZD/mcJ7k0ESLqtQsFa6zFKnEUrbtuGU+GkLtVhgt93xa2qewG5gKEC6CWlN8OaCTSVg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+  <div class="main-container" id="main-container" tabindex="0"></div>
+  <div id="desc-name"></div>
+
+  <div class="sub-container" id="sub-container" style="background-color: rgba(0, 0, 0, 0.85)">
+
+    <div id="frame" class="iframe" style="background-size: contain" onmousemove="movePicture(event)"
+      ontouchmove="movePicture(event)">
+      <span class="fas" id="btnZoomOut" onclick="zoomOut()"></span>
+      <span class="fas" id="btnZoomIn" onclick="zoomIn()"></span>
+    </div>
+    <!-- Vật liệu, metalic, roughness  -->
+
+    <video width="100%" height="95%" controls id="myvideo" style="margin-top: 10px; display: none">
+      <!--<source src="/Phong1/model/pictures/TV_video/CDIT.mp4" type="video/mp4"> -->
+    </video>
+
+    <i class="fa-solid fa-xmark closeBtn-video"></i>
+
+    <div class="sub-content" id="sub-scene"></div>
+
+    <div id="info" style="display: none">
+      <div id="mySidepanel" class="sidepanel">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a id="info-text">About</a>
+      </div>
+      <button class="openbtn" onclick="openNav()" style="left: 11%; top: 3%">
+        Thông tin
+      </button>
+    </div>
+
+    <span class="close-3D" id="btn-close"
+      style="top: 5%; transform: translateY(-50%); right: 11%; display: none">&times;</span>
+  </div>
+
+  <div class="app">
+    <!-- intro section -->
+    <section class="intro">
+      <div class="intro__wrap">
+        <div class="intro__item"></div>
+        <button class="intro__startBtn"></button>
+      </div>
+    </section>
+
+    <!-- modal section Guide -->
+    <div class="myModal">
+      <div class="myModal__layer"></div>
+      <div class="myModal__wrap">
+        <img class="myModal__img" src="./resource/img/instructions.png" alt="" />
+        <i class="fa-solid fa-xmark close-btn"></i>
+      </div>
+    </div>
+  </div>
+  <canvas class="webgl"></canvas>
+  <canvas class="descriptionScene"></canvas>
+
+  <script src="libs/build/three.js"></script>
+  <script src="libs/jsm/libs/inflate.min.js"></script>
+  <script src="libs/jsm/controls/OrbitControls.js"></script>
+  <script src="libs/jsm/loaders/FBXLoader.js"></script>
+  <script src="libs/jsm/loaders/GLTFLoader.js"></script>
+  <script src="libs/jsm/loaders/RGBELoader.js"></script>
+  <script src="libs/jsm/controls/OrbitControls.js"></script>
+
+  <script src="code/actions/controlCamera.js"></script>
+  <script src="/code/actions/display.js"></script>
+  <script src="/code/actions/rotateModel.js"></script>
+  <script src="code/events/mainscene.js"></script>
+  <script src="/code/events/subscene.js"></script>
+  <script src="./loadModel.js"></script>
+  <script src="./resource/js/button.js"></script>
+  <script src="./resource/js/main.js"></script>
+</body>
+
+</html>
